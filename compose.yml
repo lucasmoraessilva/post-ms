@@ -1,0 +1,25 @@
+services:
+  mysql:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: lucas
+      MYSQL_DATABASE: lucas
+      MYSQL_USER: lucas
+      MYSQL_PASSWORD: lucas
+    ports:
+      - "3306:3306"
+  post-ms:
+    restart: always
+    build: .
+    environment:
+      PROFILE: local
+      DB_HOST: mysql
+      DB_USERNAME: lucas
+      DB_PASS: lucas
+      DB_NAME: lucas
+      DB_PORT: 3306
+      SERVER_PORT: 8081
+    ports:
+      - "8081:8081"
+    depends_on:
+      - mysql
