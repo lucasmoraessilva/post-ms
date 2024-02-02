@@ -1,4 +1,4 @@
-package com.lucasmoraessilva.postms;
+package com.lucasmoraessilva.postms.presentation.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,5 +1,6 @@
-package com.lucasmoraessilva.postms;
+package com.lucasmoraessilva.postms.data.repository;
 
+import com.lucasmoraessilva.postms.business.entity.Post;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

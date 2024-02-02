@@ -1,4 +1,4 @@
-package com.lucasmoraessilva.postms;
+package com.lucasmoraessilva.postms.presentation.dto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

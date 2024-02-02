@@ -1,4 +1,8 @@
-package com.lucasmoraessilva.postms;
+package com.lucasmoraessilva.postms.util.converter;
+
+import com.lucasmoraessilva.postms.business.entity.Post;
+import com.lucasmoraessilva.postms.presentation.dto.PostDtoIn;
+import com.lucasmoraessilva.postms.presentation.dto.PostDtoOut;
 
 import java.util.List;
 
